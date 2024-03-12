@@ -1,0 +1,14 @@
+body{
+    background: brown;
+}
+
+#canvas1 {
+    background: wheat;
+    border: 3px solid black;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    height: 1000px;
+    width: 500px;
+}
