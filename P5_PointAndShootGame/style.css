@@ -1,16 +1,22 @@
 body{
-    background: linear-gradient(20deg, red, green, blue);
+    background: linear-gradient(40deg, red, green, blue);
     width: 100vw;
     height: 100vh;
     overflow: hidden;
 }
 
 canvas {
+    /* background-color: aliceblue; */
     position: absolute;
-    top: 0;
+    top: 50%;
+    /* /* left: 50%; */
+    /* width: 800;
+    height: 720; */
+    transform: translate(0, -50%);
+    /* top: 0; */
     left: 0;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 
 #collisionCanvas{
